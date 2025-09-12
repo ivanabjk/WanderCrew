@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-class MessagesPage extends StatelessWidget {
-  const MessagesPage({super.key});
+class MessagesScreen extends StatelessWidget {
+  const MessagesScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    print('Messages page'); // This prints to the console when the widget builds
+    print('Messages screen'); // This prints to the console when the widget builds
 
     return Scaffold(
       appBar: AppBar(title: const Text('Messages')),
       body: const Center(
-        child: Text('Messages Page'),
+        child: Text('Messages Screen'),
       ),
     );
   }

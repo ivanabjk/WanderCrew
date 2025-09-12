@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    print('Home page'); // This prints to the console when the widget builds
+    print('Home screen'); // This prints to the console when the widget builds
 
     return Scaffold(
       appBar: AppBar(title: const Text('Home')),
       body: const Center(
-        child: Text('Welcome to the Home Page'),
+        child: Text('Home screen'),
       ),
     );
   }
