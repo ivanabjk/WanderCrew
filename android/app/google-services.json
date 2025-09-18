@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "900835177309",
+    "project_id": "wandercrew-f23cc",
+    "storage_bucket": "wandercrew-f23cc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900835177309:android:4a2336431ad225f941aeb4",
+        "android_client_info": {
+          "package_name": "com.example.wander_crew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900835177309-ad9n9krsod496fvuge69cqrr34tbb8qb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wander_crew",
+            "certificate_hash": "7c3973986644b0750cad55e4df3209fa63f52022"
+          }
+        },
+        {
+          "client_id": "900835177309-5jm2kdcb0vc21mocf6jqmpl7qvhvedh3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSH4VK5XwiUtoVHTpwtvJ2zNB7Gf5uV9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900835177309-0jln6flkf6ho70pm2m8aca2rljgp5gcv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "900835177309-cti46sjqg375na328stiiqrohamjjia4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.wanderCrew"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

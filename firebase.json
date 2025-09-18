@@ -1,0 +1,22 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "wandercrew-f23cc",
+          "appId": "1:900835177309:android:4a2336431ad225f941aeb4",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "wandercrew-f23cc",
+          "configurations": {
+            "android": "1:900835177309:android:4a2336431ad225f941aeb4",
+            "ios": "1:900835177309:ios:cb573f7290c994db41aeb4"
+          }
+        }
+      }
+    }
+  }
+}
