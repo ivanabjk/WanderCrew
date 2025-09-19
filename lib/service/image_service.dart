@@ -15,11 +15,11 @@ class ImageService {
     return image != null ? File(image.path) : null;
   }
 
-  Future<String?> uploadImage(File imageFile, String userId, String type) async {
+  Future<String?> uploadImage(File imageFile, String email, String type) async {
     try {
       final ref = FirebaseStorage.instance
           .ref()
-          .child('users/$userId/$type.jpg'); // type = 'profile' or 'background'
+          .child('users/$email/$type.jpg'); // type = 'profile' or 'background'
       await ref.putFile(imageFile);
       return await ref.getDownloadURL();
     } catch (e) {

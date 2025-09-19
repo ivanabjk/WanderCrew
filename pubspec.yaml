@@ -37,13 +37,21 @@ dependencies:
   provider: ^6.1.2
 
   #FIREBASE
+  path: ^1.9.0
   firebase_core: ^3.8.1 # https://pub.dev/packages/firebase_core
   firebase_auth: ^5.3.4 # https://pub.dev/packages/firebase_auth
-  image_picker: ^1.1.2
   firebase_storage: ^12.3.7
-  path: ^1.9.0
-  shared_preferences: ^2.3.4
+  cloud_firestore: ^5.6.12
   google_sign_in: ^6.1.4
+
+  shared_preferences: ^2.3.4
+
+  image_picker: ^1.1.2
+
+  geolocator: ^10.1.0
+  geocoding: ^2.1.0
+
+
 
 dev_dependencies:
   flutter_test:
@@ -61,6 +69,9 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+
+  assets:
+    - assets/default_avatar.png
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
